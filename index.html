@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tab component</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="tabs">
+      <div class="tabs__controller">
+        <button
+          class="tabs__controller--btn tabs__controller--btn-1 tabs__controller--btn-active"
+          data-tab="1"
+        >
+          <span>01</span>Instant Transfers
+        </button>
+        <button
+          class="tabs__controller--btn tabs__controller--btn-2"
+          data-tab="2"
+        >
+          <span>02</span>Instant Loans
+        </button>
+        <button
+          class="tabs__controller--btn tabs__controller--btn-3"
+          data-tab="3"
+        >
+          <span>03</span>Instant Closing
+        </button>
+      </div>
+      <div class="tabs__content tabs__content--1 tabs__content--active">
+        <div class="tabs__content--index">01</div>
+
+        <h2 class="tabs__content--header">
+          Transfer money to anyone, instantly! No fees, no BS.
+        </h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat.
+        </p>
+      </div>
+      <div class="tabs__content tabs__content--2">
+        <div class="tabs__content--index">02</div>
+
+        <h2 class="tabs__content--header">
+          Buy a home or make your dreams come true, with instant loans.
+        </h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat.
+        </p>
+      </div>
+      <div class="tabs__content tabs__content--3">
+        <div class="tabs__content--index">03</div>
+
+        <h2 class="tabs__content--header">
+          No longer need your account? No problem! Close it instantly.
+        </h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat.
+        </p>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
